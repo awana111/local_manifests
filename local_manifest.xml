@@ -5,10 +5,19 @@
         <remote name="Iverz"
         fetch="https://github.com/asterixiverz" />
 
+        <remote name="crdroid-orion"
+        fetch="https://github.com/crdroidandroid" />
+
+        <!-- Remove Packages-->
+        <remove-project name="crdroidandroid/android_toolchain_pgo-profiles" />
+
         <!-- Sync trees -->
         <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Iverz" revision="orion14-qpr3" />
 
         <!-- Private keys -->
         <project path="vendor/lineage-priv/keys" name="vendor_sign" remote="Iverz" revision="orion" />
+
+        <!-- Clone unsync repository in crave.io-->
+        <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="crdroid-orion" revision="14.0" />
 
 </manifest>
