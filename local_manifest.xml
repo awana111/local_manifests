@@ -2,10 +2,10 @@
 
 <manifest>
 
-  <remote name="kenkyou"
+  <remote name="awana"
           fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="kenkyou" revision="baikal" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="awana" revision="baikal" />
 
 </manifest>
