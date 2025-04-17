@@ -6,6 +6,6 @@
           fetch="https://github.com/awana111" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="awana" revision="axi" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="awana" revision="evox" />
 
 </manifest>
