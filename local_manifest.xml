@@ -3,12 +3,12 @@
 
     <remote name="awana" fetch="https://github.com/awana111" />
 
-    <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="awana" revision="thirteen" clone-depth="1" />
+    <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="awana" revision="arrow" clone-depth="1" />
 
-    <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="awana" revision="main" recursive="true" />
+    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="awana" revision="dynamic" recursive="true" />
 
     <project path="vendor/asus" name="vendor_asus-4.19" remote="awana" revision="thirteen" clone-depth="1" />
 
-    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="awana" revision="thirteen" clone-depth="1" />
+    <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="awana" revision="thirteen-dynamic" clone-depth="1" />
 
 </manifest>
