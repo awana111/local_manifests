@@ -4,8 +4,10 @@
 
   <remote name="awana"
           fetch="https://github.com/awana111" />
+  <remote name="kenkyou"
+          fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="awana" revision="2by2" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="kenkyou" revision="2by2" />
 
 </manifest>
