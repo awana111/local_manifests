@@ -4,10 +4,8 @@
 
   <remote name="awana"
           fetch="https://github.com/awana111" />
-  <remote name="kenkyou"
-          fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="kenkyou" revision="Helluva" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="awana" revision="Helluva" />
 
 </manifest>
