@@ -4,8 +4,10 @@
 
   <remote name="awana"
           fetch="https://github.com/awana111" />
+  <remote name="awa"
+          fetch="https://github.com/A11X00T" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD-4.4" remote="awana" revision="lineage-18.1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-4.4" remote="awa" revision="Corvus" />
 
 </manifest>
